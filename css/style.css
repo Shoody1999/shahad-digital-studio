@@ -339,10 +339,9 @@ button[type="submit"]:hover {
 ========================= */
 
 .header-hero {
-  height: 55vh;        /* كان عريض زيادة */
-  max-height: 680px;   /* حد أقصى ذكي */
-  position: relative;
-  overflow: hidden;
+  height: 90vw;        /* كان عريض زيادة */
+  max-height: 1200px;   /* حد أقصى ذكي */
+  heidht: auto;
 }
 
 .hero-bg {
@@ -365,3 +364,4 @@ button[type="submit"]:hover {
   width: 100%;
   height: auto;
 }
+
