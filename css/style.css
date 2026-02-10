@@ -116,9 +116,10 @@ a {
    HERO (INDEX)
 ========================= */
 .header-hero {
-  position: relative;
-  height: 80vh;
-  overflow: hidden;
+  width: 80%;
+  max-width: 1200xp;
+  height: auto;
+  display: block;
 }
 
 .hero-bg {
@@ -292,8 +293,8 @@ button[type="submit"]:hover {
   /* الهيدر */
   .header-hero {
     /*height: 45vh;*//* واضح لكن مو عريض */
-     width: 90vw;
-     max-width: 1200px;
+     width: 95%;
+     max-width: none;
      height: auto;
     /*position: relative;*/
   }
@@ -367,5 +368,6 @@ button[type="submit"]:hover {
   width: 100%;
   height: auto;
 }
+
 
 
