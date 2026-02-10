@@ -284,46 +284,54 @@ button[type="submit"]:hover {
    HERO – MOBILE CLEAN FIX
 ========================= */
 
+/* =========================
+   HERO – MOBILE FINAL FIX
+========================= */
+
 @media (max-width: 768px) {
 
-  /* الهيدر نفسه */
+  /* الهيدر */
   .header-hero {
-    height: auto;
-    min-height: unset;
+    height: 45vh;          /* واضح لكن مو عريض */
+    position: relative;
   }
 
-  /* صورة الخلفية الكبيرة */
+  /* صورة الخلفية */
   .hero-bg {
-    height: 38vh;           /* مو عريض */
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: center;
   }
 
   /* محتوى الهيرو */
   .hero {
+    position: relative;
+    z-index: 2;
     grid-template-columns: 1fr;
-    padding: 2.5rem 1.25rem;
-    gap: 1.8rem;
+    padding: 2rem 1.5rem;
+    gap: 2rem;
   }
 
+  /* النص */
   .hero-content h2 {
-    font-size: 1.35rem;
-    line-height: 1.45;
+    font-size: 1.4rem;
+    line-height: 1.4;
     max-width: 100%;
   }
 
   /* صورة الهيرو البارزة */
   .hero-image img {
     width: 100%;
-    max-width: 340px;       /* هذا المفتاح */
+    max-width: 320px;   /* مهم جدًا */
     margin: 0 auto;
     display: block;
 
-    transform: none;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.12);
+    transform: translateY(-4px);
+    box-shadow: 0 16px 30px rgba(0,0,0,0.14);
   }
 
   .hero-image:hover img {
-    transform: none;
+    transform: translateY(-6px);
   }
 }
