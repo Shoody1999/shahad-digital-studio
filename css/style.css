@@ -283,7 +283,6 @@ button[type="submit"]:hover {
 /* =========================
    HERO – MOBILE CLEAN FIX
 ========================= */
-
 /* =========================
    HERO – MOBILE FINAL FIX
 ========================= */
@@ -334,4 +333,35 @@ button[type="submit"]:hover {
   .hero-image:hover img {
     transform: translateY(-6px);
   }
+}
+/* =========================
+   HERO – DESKTOP FIX
+========================= */
+
+.header-hero {
+  height: 55vh;        /* كان عريض زيادة */
+  max-height: 680px;   /* حد أقصى ذكي */
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* محتوى الهيرو */
+.hero {
+  max-width: 1200px;   /* يمنع التمدد */
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+/* صورة الهيرو */
+.hero-image img {
+  max-width: 420px;    /* أهم نقطة */
+  width: 100%;
+  height: auto;
 }
