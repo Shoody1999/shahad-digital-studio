@@ -295,7 +295,7 @@ button[type="submit"]:hover {
     /*height: 45vh;*//* واضح لكن مو عريض */
      width: 95%;
      max-width: none;
-     height: auto;
+     /*height: auto;*/
     /*position: relative;*/
   }
 
@@ -368,6 +368,7 @@ button[type="submit"]:hover {
   width: 100%;
   height: auto;
 }
+
 
 
 
