@@ -291,8 +291,11 @@ button[type="submit"]:hover {
 
   /* الهيدر */
   .header-hero {
-    height: 45vh;          /* واضح لكن مو عريض */
-    position: relative;
+    /*height: 45vh;*//* واضح لكن مو عريض */
+     width: 90vw;
+     max-width: 1200px;
+     height: auto;
+    /*position: relative;*/
   }
 
   /* صورة الخلفية */
@@ -364,4 +367,5 @@ button[type="submit"]:hover {
   width: 100%;
   height: auto;
 }
+
 
